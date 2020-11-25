@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com">
+		<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Muli:wght@400;700;900&display=swap"/>
+		<link rel="stylesheet" href="/index.css">
+		<title>Carmel Hack Club</title>
+   </head>
+   <style>
+      body::-webkit-scrollbar {
+      width: 12px;
+      }
+
+      body::-webkit-scrollbar-track {
+      background: rgba(116, 112, 112, 0.548);
+      }
+      
+      
+      body::-webkit-scrollbar-thumb {
+      background-color: var(--thumbBG) ;
+      border-radius: 5px;
+      border: 3px solid var(--scrollbarBG);
+      }
+      
+      /* Handle on hover */
+      ::-webkit-scrollbar-thumb:hover {
+      background: rgba(34, 99, 8, 0.644); 
+      }
+      
+      /*Disabel horizontal scroll bar */
+      div.disabled {
+         overflow-x: hidden;
+         overflow-y: scroll;
+      }
+      /* Change Selection Text Color When Highlighting */ 
+      ::-moz-selection { background-color:#ff8c37;
+      color: #fff; } 
+      ::selection { background-color: #ff8c37;
+      color: #fff; }
+   </style>
+	<body>
+		<img id="flag" src="https://assets.hackclub.com/flag-orpheus-left.svg" alt="Flag">
+		<h1 id="title" class="noselect">Carmel Hack Club</h1>
+		<section>
+			<label class="section-label noselect">Next meeting</label>
+			<div class="section-content noselect" id="meeting-date">
+				<p id="meeting-day">Dec 9th, 2020</p>
+				<p id="meeting-time">at 6:00 PM</p>
+			</div>
+			<a class="section-link" href="https://hackclub.zoom.us/j/95632777659?pwd=QThSMTZ5bUZIZERwTFJUMEphakJXdz09" target="_blank">Join Zoom</a>
+		</section>
+		<section>
+			<label class="section-label noselect">About us</label>
+			<p class="section-content" id="description">
+				Welcome! You have stumbled across Carmel High School's chapter of the international non-profit organization Hack Club. Whether you've never written a single piece of code or a programming expert, this is the club for you. We meet virtually over zoom every Thursday from 6 to 7 P.M.  EST to work on different projects, ask questions, learn more about coding, and be part of the amazing Hack Club organization. At our club your project can range from making your own website, app, or game to working with Arduinos and we'll be there every step of your journey.
+
+Through this club, we hope to create passionate programmers and set-up one of the first hackathons in Indiana.
+
+Members who join can look forward to a variety of free stuff including stickers, a free yearlong subscription to repl.it Student Hacker, GitHub Student Developer Pack, and a free Figma subscription.
+			</p>
+			<a class="section-link" href="https://docs.google.com/forms/d/e/1FAIpQLSfUGOzDHipckiTbQQOmKzCa5ffrqS0cZeb0bQo4ISFC_pdBcQ/viewform"  target="https://docs.google.com/forms/d/e/1FAIpQLSfUGOzDHipckiTbQQOmKzCa5ffrqS0cZeb0bQo4ISFC_pdBcQ/viewform">Enroll</a>
+		</section>
+		<section>
+			<label class="section-label noselect">Partners</label>
+			<div class="section-content noselect" id="partners">
+				<a class="partner" href="https://hackclub.com">
+					<img class="partner-image" src="https://assets.hackclub.com/icon-progress-rounded.svg" alt="Hack Club"> 
+				</a>
+				<a class="partner" href="https://stickermule.com">
+					<img class="partner-image" src="https://opencollective-production.s3-us-west-1.amazonaws.com/50d34300-e719-11e6-8f71-e12ba1ad8ee3.png" alt="stickermule">
+				</a>
+				<a class="partner" href="https://github.com">
+					<img class="partner-image" src="https://icon-library.com/images/github-icon-png/github-icon-png-29.jpg" alt="GitHub">
+				</a>
+				<a class="partner" href="https://figma.com">
+					<img class="partner-image" src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/Figma-logo.svg/1200px-Figma-logo.svg.png" alt="Figma">
+				</a>
+				<a class="partner" href="https://repl.it">
+					<img class="partner-image" src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Repl.it_logo.svg/220px-Repl.it_logo.svg.png" alt="repl.it">
+				</a>
+				<a class="partner" href="https://notion.so">
+					<img class="partner-image" src="https://logos-download.com/wp-content/uploads/2019/06/Notion_App_Logo.png" alt="Notion">
+				</a>
+			</div>
+		</div>
+		<script src="/index.js"></script>
+	</body>
+</html>
